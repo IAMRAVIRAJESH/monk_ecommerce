@@ -9,7 +9,7 @@ Run npm i
 Run npm start
 
 APIs-
-I have added postman request file to this project which contains all teh APIs with sample request, you can import, edit and test APIs from there.
+I have added postman request file to this project which contains all teh APIs with sample request, you can import, edit and test APIs from there
 
 In this assignment I have covered all the conditions asked, apart from that I have added some conditions.
 Implemented cases (not mentioned in the assignment)
