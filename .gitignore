@@ -2,3 +2,4 @@ node_modules
 data.sql
 .env
 coverage
+monk.postman_collection.json
