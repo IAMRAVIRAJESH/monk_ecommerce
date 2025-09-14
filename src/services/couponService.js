@@ -153,7 +153,7 @@ class CouponService {
         } else if (coupon.type == "product-wise") {
           let curr = 0;
           discountAmount = 0;
-          //I'm assuming I have to apply discount on total number of products X added in the cart if there is discount on productId X (subject to MaxdiscountAmount).
+          //I'm assuming I have to apply discount on total number of products X added in the cart if there is discount on productId X (subject to max discount amount).
           for (const item of form.cart.items) {
             if (item.productId == coupon.conditioning.productId)
               curr = item.price * item.quantity;
@@ -238,7 +238,7 @@ class CouponService {
         );
       } else if (coupon.type == "product-wise") {
         let curr = 0;
-        //I'm assuming I have to apply discount on total number of products X added in the cart if there is discount on productId X (subject to MaxdiscountAmount).
+        //I'm assuming I have to apply discount on total number of products X added in the cart if there is discount on productId X (subject to max discount amount).
         for (const item of form.cart.items) {
           if (item.productId === coupon.conditioning.productId)
             curr = item.price * item.quantity;

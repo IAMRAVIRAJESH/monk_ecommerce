@@ -56,7 +56,7 @@ I have implemented APIs for the following-
 ## Limitations and assumptions
 
 - For the product-wise coupon I'm assuming I have to apply Y % of discount on total number of products X added in
-  the cart if there is certain discount on product X (subject to max discount amount). For example, price of X is 50 and customer added 6 units that is 50*6 = 300 total amount and max discount amount is 100, so even the discount is 50% that equates to 150 rupess, I will give only 100 rupees discount as that is the maximum amount threshold for that coupon.
+  the cart if there is certain discount on product X (subject to max discount amount). For example, price of X is 50 and customer added 6 units that is 50\*6 = 300 total amount and max discount amount is 100, so even the discount is 50% that equates to 150 rupess, I will give only 100 rupees discount as that is the maximum amount threshold for that coupon.
 - For the BxGy coupon I'm not giving any discounts if there is no product added from 2nd array, I will only give
   the items for free if the items are added and that too minimum of (maxRedemption, eligible items added from the 2nd array).
 - For the cart-wise I'm applying discounts only if the total cart amount equals or exceeds the threshold amount

@@ -9,7 +9,7 @@ async function startServer() {
 
     await sequelize.authenticate();
 
-    //await sequelize.sync({ alter: true });
+    //await sequelize.sync({ alter: true }); uncomment this create models in database
     console.log("Database models synced successfully.");
 
     app.listen(PORT, () => {
