@@ -1,6 +1,6 @@
 # Monk Commerce
 
-An e-commerce service for coupon management.
+- An e-commerce service for coupon management.
 
 ## Features included
 
@@ -13,7 +13,7 @@ An e-commerce service for coupon management.
 - Express.js (Framework)
 - MySQL with Sequelize ORM (database)
 
-## API testing-
+## API testing
 
 I have added postman request file in the root directory of this project which contains all the APIs with sample request, you can import, edit and test APIs from there.
 
